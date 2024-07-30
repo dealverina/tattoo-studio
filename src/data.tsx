@@ -52,7 +52,7 @@ export const heroData = {
 };
 
 export const aboutData = {
-  title: "My Story",
+  title: "My Story:",
   subtitle1:
     "Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam ex iste quisquam officiis minima incidunt explicabo modi voluptates, reiciendis inventore quasi eos, in ea, illum blanditiis aliquam nihil odit saepe?",
   subtitle2:
