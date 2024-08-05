@@ -13,7 +13,7 @@ A Tattoo Studio website using ReactJS, TailwindCSS, and Framer Motion. Tutorial 
 
 ## CSS Framework
 
-- [Taildwind CSS](https://tailwindcss.com/)
+- [Tailwind CSS](https://tailwindcss.com/)
 
 ## Animation Library
 
