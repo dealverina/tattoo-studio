@@ -1,3 +1,4 @@
+import AnchorLink from "react-anchor-link-smooth-scroll";
 import { navData } from "../data";
 import { Socials } from "./Socials";
 
@@ -9,9 +10,12 @@ export const NavMobile = () => {
       <ul className="flex flex-col justify-center items-center gap-y-6 py-6 mb-8">
         {items.map((item, index) => (
           <li key={index}>
-            <a className="text-2xl font-primary uppercase" href={item.href}>
+            <AnchorLink
+              className="text-2xl font-primary uppercase"
+              href={item.href}
+            >
               {item.name}
-            </a>
+            </AnchorLink>
           </li>
         ))}
       </ul>

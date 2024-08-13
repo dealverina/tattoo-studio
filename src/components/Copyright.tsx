@@ -16,8 +16,11 @@ export const Copyright = () => {
           className="tracking-[0.02em] text-base"
         >
           &copy; 2024
-          <span className="font-semibold text-white"> The Void Tattoo.</span> All
-          rights reserved.
+          <span className="font-semibold text-white">
+            {" "}
+            The Void Tattoo.
+          </span>{" "}
+          All rights reserved.
         </motion.div>
       </div>
     </div>

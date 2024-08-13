@@ -53,73 +53,75 @@ export const Skills = () => {
   }, [fullBody, safelyPiercing, fullColor, temporary, inView]);
 
   return (
-    <motion.section
-      ref={ref}
-      className="section font-primary"
-      variants={fadeIn("up")}
-      initial="hidden"
-      whileInView={"show"}
-      viewport={{once: false, amount: 0.1}}
-    >
-      <div className="container mx-auto">
-        <div className="flex flex-col xl:flex-row justify-between items-center gap-y-12">
-          {/* circular item */}
-          <div className="w-[150px] lg:w-[275px] flex flex-col items-center gap-y-6">
-            <CircularProgressbar
-              strokeWidth={1}
-              value={fullBody}
-              styles={styles}
-              text={`${fullBody}%`}
-            />
-            {/* text */}
-            <div className="uppercase font-light tracking-[1.2px] text-center">
-              Full Body Tattoo
+    <div id="skills" className="pt-28">
+      <motion.section
+        ref={ref}
+        className="section font-primary"
+        variants={fadeIn("up")}
+        initial="hidden"
+        whileInView={"show"}
+        viewport={{ once: false, amount: 0.1 }}
+      >
+        <div className="container mx-auto">
+          <div className="flex flex-col xl:flex-row justify-between items-center gap-y-12">
+            {/* circular item */}
+            <div className="w-[150px] lg:w-[275px] flex flex-col items-center gap-y-6">
+              <CircularProgressbar
+                strokeWidth={1}
+                value={fullBody}
+                styles={styles}
+                text={`${fullBody}%`}
+              />
+              {/* text */}
+              <div className="uppercase font-light tracking-[1.2px] text-center">
+                Full Body Tattoo
+              </div>
             </div>
-          </div>
 
-          {/* circular item */}
-          <div className="w-[150px] lg:w-[275px] flex flex-col items-center gap-y-6">
-            <CircularProgressbar
-              strokeWidth={1}
-              value={safelyPiercing}
-              styles={styles}
-              text={`${safelyPiercing}%`}
-            />
-            {/* text */}
-            <div className="uppercase font-light tracking-[1.2px] text-center">
-              Safely Piercing
+            {/* circular item */}
+            <div className="w-[150px] lg:w-[275px] flex flex-col items-center gap-y-6">
+              <CircularProgressbar
+                strokeWidth={1}
+                value={safelyPiercing}
+                styles={styles}
+                text={`${safelyPiercing}%`}
+              />
+              {/* text */}
+              <div className="uppercase font-light tracking-[1.2px] text-center">
+                Safely Piercing
+              </div>
             </div>
-          </div>
 
-          {/* circular item */}
-          <div className="w-[150px] lg:w-[275px] flex flex-col items-center gap-y-6">
-            <CircularProgressbar
-              strokeWidth={1}
-              value={fullColor}
-              styles={styles}
-              text={`${fullColor}%`}
-            />
-            {/* text */}
-            <div className="uppercase font-light tracking-[1.2px] text-center">
-              Full Color Tattoo
+            {/* circular item */}
+            <div className="w-[150px] lg:w-[275px] flex flex-col items-center gap-y-6">
+              <CircularProgressbar
+                strokeWidth={1}
+                value={fullColor}
+                styles={styles}
+                text={`${fullColor}%`}
+              />
+              {/* text */}
+              <div className="uppercase font-light tracking-[1.2px] text-center">
+                Full Color Tattoo
+              </div>
             </div>
-          </div>
 
-          {/* circular item */}
-          <div className="w-[150px] lg:w-[275px] flex flex-col items-center gap-y-6">
-            <CircularProgressbar
-              strokeWidth={1}
-              value={temporary}
-              styles={styles}
-              text={`${temporary}%`}
-            />
-            {/* text */}
-            <div className="uppercase font-light tracking-[1.2px] text-center">
-              Temporary Tattoo
+            {/* circular item */}
+            <div className="w-[150px] lg:w-[275px] flex flex-col items-center gap-y-6">
+              <CircularProgressbar
+                strokeWidth={1}
+                value={temporary}
+                styles={styles}
+                text={`${temporary}%`}
+              />
+              {/* text */}
+              <div className="uppercase font-light tracking-[1.2px] text-center">
+                Temporary Tattoo
+              </div>
             </div>
           </div>
         </div>
-      </div>
-    </motion.section>
+      </motion.section>
+    </div>
   );
 };
