@@ -16,9 +16,9 @@ import { FaPlay, FaMapMarkerAlt, FaPhoneAlt, FaEnvelope } from "react-icons/fa";
 import {
   IoLogoInstagram,
   IoLogoPinterest,
-  IoLogoTwitter,
   IoLogoYoutube,
 } from "react-icons/io";
+import { FaXTwitter } from "react-icons/fa6";
 
 export const headerData = {
   logo: Logo,
@@ -36,11 +36,11 @@ export const navData = {
 };
 
 export const socialData = [
-  { href: "/", icon: <GrFacebookOption /> },
-  { href: "/", icon: <IoLogoInstagram /> },
-  { href: "/", icon: <IoLogoTwitter /> },
-  { href: "/", icon: <IoLogoYoutube /> },
-  { href: "/", icon: <IoLogoPinterest /> },
+  { href: "https://facebook.com", icon: <GrFacebookOption /> },
+  { href: "https://instagram.com", icon: <IoLogoInstagram /> },
+  { href: "https://x.com", icon: <FaXTwitter /> },
+  { href: "https://youtube.com", icon: <IoLogoYoutube /> },
+  { href: "https://pinterest.com", icon: <IoLogoPinterest /> },
 ];
 
 export const heroData = {
