@@ -1,7 +1,7 @@
 
 # Tattoo Studio
 
-A Tattoo Studio website using ReactJS, TailwindCSS, and Framer Motion. Tutorial from [here](https://www.youtube.com/watch?v=f6z5istDz_g).
+A Tattoo Studio website using ReactJS, Tailwind CSS, and Framer Motion. Tutorial from [here](https://www.youtube.com/watch?v=f6z5istDz_g). I added one page navigation elementor so that when you click on the menu you can go directly to the section.
 
 ## Demo
 
